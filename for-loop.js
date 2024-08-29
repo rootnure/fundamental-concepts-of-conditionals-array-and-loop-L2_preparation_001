@@ -53,7 +53,31 @@ for(let num = 11; num <= 20; num+=2) {
 
 let evenSum2 = 0;
 for(let num = 20; num >= 11; num-=2) {
-    console.log(num); // checking what we are getting
+    // console.log(num); // checking what we are getting
     evenSum2 = evenSum2 + (num - 1);
 }
-console.log(evenSum2);
+// console.log(evenSum2);
+
+/* 6. Get all the values from 1 to 30 which are devisable by 5 */
+
+for(let i = 1; i <= 30; i++){
+    if(i % 5 === 0){
+        // console.log(i);
+    }
+}
+
+/* 7. Get all the values from 1 to 30 which are devisable by 3 or 5 */
+
+for(let number = 1; number <= 30; number++) {
+    if(number % 3 === 0 || number % 5 === 0) {
+        // console.log(number);
+    }
+}
+
+/* 8. Get all the values from 1 to 30 which are devisable by 3 and 5 */
+
+for(let number = 1; number <= 30; number++) {
+    if(number % 3 === 0 && number % 5 === 0) {
+        console.log(number);
+    }
+}
